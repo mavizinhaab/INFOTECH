@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>InfoTech IFPB - Abrir Chamado</title>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="chamado.css" />
 
-<body>
-  <header>
-    <h1>InfoTech IFPB</h1>
+    <title>InfoTech IFPB - Abrir Chamado</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>InfoTech IFPB</h1>
+      <p class="subtitulo">
+        Suporte técnico especializado em Hardware, Software e infraestrutura de
+        Redes.
+      </p>
+    </header>
 
     <nav>
       <ul>
@@ -17,71 +25,86 @@
         <li><a href="chamado.html">Abrir Chamado</a></li>
       </ul>
     </nav>
-  </header>
 
-  <main>
+    <main>
+      <section id="formulario">
+        <h2>Abrir Solicitação</h2>
 
-    <section id="formulario">
-      <h2>Abrir Solicitação</h2>
+        <form method="post">
+          <fieldset>
+            <legend>Dados do Solicitante</legend>
 
-      <form method="post">
+            <label for="nome">Nome:</label>
+            <input
+              id="nome"
+              name="nome"
+              type="text"
+              placeholder="Ex: João das Neves"
+              required
+            />
+            <br /><br />
 
-        <fieldset>
-          <legend>Dados do Solicitante</legend>
+            <label for="email">E-mail:</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Ex: joao.neves@gmail.com"
+              required
+            />
+            <br /><br />
 
-          <label for="nome">Nome:</label>
-          <input id="nome" name="nome" type="text" placeholder="Ex: João das Neves" required>
-          <br><br>
+            <label for="telefone">Telefone:</label>
+            <input
+              id="telefone"
+              name="telefone"
+              type="tel"
+              placeholder="Ex: (83) 9 0000-0000"
+              required
+            />
+          </fieldset>
 
-          <label for="email">E-mail:</label>
-          <input id="email" name="email" type="email" placeholder="Ex: joao.neves@gmail.com" required>
-          <br><br>
+          <br />
 
-          <label for="telefone">Telefone:</label>
-          <input id="telefone" name="telefone" type="tel" placeholder="Ex: (83) 9 0000-0000" required>
+          <fieldset>
+            <legend>Informações do Problema</legend>
 
-        </fieldset>
+            <label for="tipo">Tipo de serviço:</label>
+            <select id="tipo" name="tipo">
+              <option value="hardware">Hardware</option>
+              <option value="software">Software</option>
+              <option value="redes">Redes</option>
+            </select>
 
-        <br>
+            <br /><br />
 
-        <fieldset>
-          <legend>Informações do Problema</legend>
+            <label for="descricao">Descrição:</label>
+            <textarea
+              id="descricao"
+              name="descricao"
+              rows="5"
+              required
+            ></textarea>
 
-          <label for="tipo">Tipo de serviço:</label>
-          <select id="tipo" name="tipo">
-            <option value="hardware">Hardware</option>
-            <option value="software">Software</option>
-            <option value="redes">Redes</option>
-          </select>
+            <br /><br />
 
-          <br><br>
+            <label for="prioridade">Prioridade:</label>
+            <select id="prioridade" name="prioridade">
+              <option value="baixa">Baixa</option>
+              <option value="media">Média</option>
+              <option value="alta">Alta</option>
+            </select>
+          </fieldset>
 
-          <label for="descricao">Descrição:</label>
-          <textarea id="descricao" name="descricao" rows="5" required></textarea>
+          <br />
 
-          <br><br>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
 
-          <label for="prioridade">Prioridade:</label>
-          <select id="prioridade" name="prioridade">
-            <option value="baixa">Baixa</option>
-            <option value="media">Média</option>
-            <option value="alta">Alta</option>
-          </select>
-
-        </fieldset>
-
-        <br>
-
-        <button type="submit">Enviar</button>
-
-      </form>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>InfoTech IFPB — Página de abertura de chamado.</p>
-  </footer>
-
-</body>
+    <footer>
+      <p>InfoTech IFPB — Contato: contato@infotech.ifpb.br</p>
+    </footer>
+  </body>
 </html>
