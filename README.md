@@ -21,7 +21,7 @@ O projeto está disponível através do **GitHub Pages** no link abaixo:
     * Grid Layout
     * Media Queries (Responsividade)
 
-## 3. 🖥️ Como Rodar Localmente
+## 3. Como Rodar Localmente
 
 Este é um projeto estático. Não há necessidade de instalação. Siga as orientações abaixo para roda-ló:
 
@@ -40,7 +40,7 @@ Este é um projeto estático. Não há necessidade de instalação. Siga as orie
 O manual de uso do sistema, detalhando as funcionalidades de cada tela, está localizado em:
 `/docs/manual-uso.pdf`
 
-## 5. 👨‍💻 Autor
+## 5. Autor
 
-* **[Andréia Vitória Silva Damacena, Cleidiane Lira Gomes, D. Dandara, Maria Vitória de Abreu, Márcia Vitória e Pietra ]**
+* **Andréia Vitória Silva Damacena, Cleidiane Lira Gomes, D. Dandara, Maria Vitória de Abreu, Márcia Vitória e Pietra**
 * **Turma:** 3º INTIN
