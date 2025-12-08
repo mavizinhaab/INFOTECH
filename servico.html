@@ -3,82 +3,199 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="servico.css" />
     <title>InfoTech IFPB - Serviços</title>
   </head>
   <body>
     <header>
-        <h1>InfoTech IFPB</h1>
-        <p class="subtitulo">
-          Suporte técnico especializado em Hardware, Software e infraestrutura de
-          Redes.
-        </p>
-      </header>
-  
-      <nav>
-        <ul>
-          <li><a href="index.html">Inicial</a></li>
-          <li><a href="servico.html">Serviços</a></li>
-          <li><a href="chamado.html">Abrir Chamado</a></li>
-        </ul>
-      </nav>
-      <h2>Serviços</h2>
+      <h1>InfoTech IFPB</h1>
+    </header>
 
-      <section aria-labelledby="hardware">
-        <h3 id="hardware">Hardware</h3>
-        <p>
-          Diagnóstico e reparo de computadores, troca de peças, manutenção
-          preventiva e montagem de máquinas.
-        </p>
-      </section>
-      <figure>
-        <img
-          src="https://dicas.olx.com.br/wp-content/uploads/2024/07/o-que-e-um-hardware-e-tipos-1024x576.jpg"
-          alt="Manutenção de Hardware"
-          width="200"
-        />
-        <figcaption>
-          Manutenção de Hardware: troca de peças e diagnóstico.
-        </figcaption>
-      </figure>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicial</a></li>
+        <li><a href="perfil.html">Técnicos</a></li>
+        <li><a href="chamado.html">Abrir Chamado</a></li>
+      </ul>
+    </nav>
 
-      <section aria-labelledby="software">
-        <h3 id="software">Software</h3>
-        <p>
-          Instalação de sistemas operacionais, remoção de vírus, backup e
-          recuperação de dados, atualização de softwares.
-        </p>
-      </section>
-      <figure>
-        <img
-          src="https://images.devskin.com/imageupload/fotos-blog/250950aporaqueaengenhariaadeasoftwareaeaoacursoacertoaparaavoce.jpg"
-          alt="Manutenção de Software"
-          width="200"
-        />
-        <figcaption>
-          Suporte de Software: formatação e remoção de vírus.
-        </figcaption>
-      </figure>
+    <main>
+      <h2>Nossos serviços</h2>
 
-      <section aria-labelledby="redes">
-        <h3 id="redes">Redes</h3>
-        <p>
-          Configuração de roteadores, pontos de acesso, cabeamento, diagnóstico
-          de conectividade e segurança de redes.
-        </p>
-      </section>
-      <figure>
-        <img
-          src="https://www.shutterstock.com/image-photo/close-network-switch-multiple-yellow-600nw-2623449003.jpg"
-          alt="Redes"
-          width="200"
-        />
-        <figcaption>Redes: configuração, cabeamento e otimização.</figcaption>
-      </figure>
+      <div class="categorias_servicos">
+        <article class="card-servico categoria-hardware">
+          <h2 class="card-titulo">Hardware: otimização e manutenção física</h2>
+          <p class="card-descricao">
+            Garantimos a saúde e a performance de seus equipamentos físicos
+            (computadores, notebooks e periféricos) através de manutenção
+            preventiva e upgrades estratégicos.
+          </p>
+
+          <div class="detalhes-container">
+            <div class="servico-detalhe-card">
+              <h3 class="detalhe-titulo-chamativo">
+                Limpeza Profunda e Diagnóstico
+              </h3>
+              <figure>
+                <img
+                  <! Falta adicionar as fotos dos componentes do grupo fazendo algum serviço>
+                  src="https://placehold.co/200x120/1d4b37/ffffff?text=Limpeza+Interna"
+                  alt="Imagem de um computador sendo limpo internamente"
+                />
+              </figure>
+              <p class="detalhe-descricao">
+                Limpeza interna, troca de peças danificadas e diagnósticos
+                completos para garantir a vida útil do seu equipamento.
+              </p>
+            </div>
+
+            <div class="servico-detalhe-card">
+              <h3 class="detalhe-titulo-chamativo">Turbinando sua Máquina</h3>
+              <figure>
+                <img
+                  src="https://placehold.co/200x120/1d4b37/ffffff?text=Upgrade+SSD/RAM"
+                  alt="Imagem de um componente de hardware como SSD ou RAM"
+                />
+              </figure>
+              <p class="detalhe-descricao">
+                Instalação de SSDs, expansão de Memória RAM e substituição de
+                componentes antigos para máxima velocidade.
+              </p>
+            </div>
+
+            <div class="servico-detalhe-card">
+              <h3 class="detalhe-titulo-chamativo">Montagem Personalizada</h3>
+              <figure>
+                <img
+                  src="https://placehold.co/200x120/1d4b37/ffffff?text=PC+Montagem"
+                  alt="Imagem de um computador sendo montado"
+                />
+              </figure>
+              <p class="detalhe-descricao">
+                Montagem de estações de trabalho personalizadas e solução de
+                problemas em periféricos (monitores, impressoras).
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card-servico categoria-software">
+          <h2 class="card-titulo">
+            Software: sistemas operacionais e aplicações
+          </h2>
+          <p class="card-descricao">
+            Garantimos um ambiente digital estável, seguro e perfeitamente
+            configurado para as suas atividades, livre de ameaças e erros de
+            sistema.
+          </p>
+
+          <div class="detalhes-container">
+            <div class="servico-detalhe-card">
+              <h3 class="detalhe-titulo-chamativo">
+                Instalação de Sistemas (OS)
+              </h3>
+              <figure>
+                <img
+                  src="https://placehold.co/200x120/2f7253/ffffff?text=OS+Instalacao"
+                  alt="Imagem de um sistema operacional sendo instalado"
+                />
+              </figure>
+              <p class="detalhe-descricao">
+                Formatação, instalação e atualização de sistemas operacionais
+                (Windows, Linux) com configuração completa.
+              </p>
+            </div>
+
+            <div class="servico-detalhe-card">
+              <h3 class="detalhe-titulo-chamativo">
+                Remoção de Malwares e Vírus
+              </h3>
+              <figure>
+                <img
+                  src="https://placehold.co/200x120/2f7253/ffffff?text=Antivirus"
+                  alt="Imagem de um escudo de segurança digital"
+                />
+              </figure>
+              <p class="detalhe-descricao">
+                Remoção de Vírus e Malwares, instalação e configuração de
+                Antivírus robustos e preventivos.
+              </p>
+            </div>
+
+            <div class="servico-detalhe-card">
+              <h3 class="detalhe-titulo-chamativo">
+                Pacote Office e Aplicativos
+              </h3>
+              <figure>
+                <img
+                  src="https://placehold.co/200x120/2f7253/ffffff?text=Office+ERP"
+                  alt="Imagem de ícones de aplicativos de escritório"
+                />
+              </figure>
+              <p class="detalhe-descricao">
+                Instalação e suporte a Pacotes Office, softwares de gestão (ERP)
+                e gerenciamento de drivers essenciais.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card-servico categoria-redes">
+          <h2 class="card-titulo">
+            Redes: conectividade e segurança estrutural
+          </h2>
+          <p class="card-descricao">
+            Desenvolvemos e mantemos a estrutura de comunicação da sua empresa,
+            garantindo velocidade, estabilidade e acesso seguro aos recursos.
+          </p>
+
+          <div class="detalhes-container">
+            <div class="servico-detalhe-card">
+              <h3 class="detalhe-titulo-chamativo">Estrutura de Cabeamento</h3>
+              <figure>
+                <img
+                  src="https://placehold.co/200x120/5b997c/ffffff?text=Rede+Cabo"
+                  alt="Imagem de cabos de rede e switches"
+                />
+              </figure>
+              <p class="detalhe-descricao">
+                Cabeamento estruturado, organização e configuração de switches e
+                hubs para sua rede local (LAN).
+              </p>
+            </div>
+
+            <div class="servico-detalhe-card">
+              <h3 class="detalhe-titulo-chamativo">Wi-Fi Veloz e Otimizado</h3>
+              <figure>
+                <img
+                  src="https://placehold.co/200x120/5b997c/ffffff?text=Wifi+Router"
+                  alt="Imagem de um roteador emitindo sinal Wi-Fi"
+                />
+              </figure>
+              <p class="detalhe-descricao">
+                Configuração de roteadores, otimização de sinal e eliminação de
+                zonas de sombra para cobertura total.
+              </p>
+            </div>
+
+            <div class="servico-detalhe-card">
+              <h3 class="detalhe-titulo-chamativo">
+                Compartilhamento de Recursos
+              </h3>
+              <figure>
+                <img
+                  src="https://placehold.co/200x120/5b997c/ffffff?text=Impressora+Compartilhada"
+                  alt="Imagem de uma impressora conectada em rede"
+                />
+              </figure>
+              <p class="detalhe-descricao">
+                Configuração segura de pastas, arquivos e impressoras
+                compartilhadas com controle de acesso rigoroso.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
     </main>
-
-    <footer>
-        <p>InfoTech IFPB — Contato: contato@infotech.ifpb.br</p>
-      </footer>
   </body>
 </html>
