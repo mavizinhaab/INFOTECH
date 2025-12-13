@@ -200,3 +200,35 @@ h2 {
     flex: 1 1 100%;
   }
 }
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  header {
+    padding: 30px 15px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .slogan {
+    font-size: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  .card-servico {
+    padding: 20px;
+  }
+}
