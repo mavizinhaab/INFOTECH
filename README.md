@@ -42,5 +42,5 @@ O manual de uso do sistema, detalhando as funcionalidades de cada tela, está lo
 
 ## 5. Autor
 
-* **Andréia Vitória Silva Damacena, Cleidiane Lira Gomes, D. Dandara, Maria Vitória de Abreu, Márcia Vitória e Pietra**
+* **Andréia Vitória Silva Damacena, Cleidiane Lira Gomes, D´ávila Dandara da Nóbrega Amador, Maria Vitória de Abreu, Márcia Vitória Abrantes Pinheiro e Pietra Fernandes Vasconcelos**
 * **Turma:** 3º INTIN
